@@ -185,6 +185,11 @@
 
 ---
 
+## 常见问题
+
+- [美团](./docs/interview/meituan.md)
+
+
 ## Doocs 社区优质项目
 
 Doocs 技术社区，致力于打造一个内容完整、持续成长的互联网开发者学习生态圈！以下是 Doocs 旗下的一些优秀项目，欢迎各位开发者朋友持续保持关注。
@@ -199,37 +204,3 @@ Doocs 技术社区，致力于打造一个内容完整、持续成长的互联�
 | 6   | [md](https://github.com/doocs/md)                                 | 一款高度简洁的微信 Markdown 编辑器。                                                             | ![](https://badgen.net/github/stars/doocs/md) <br>![](https://badgen.net/github/forks/doocs/md)                                 |
 | 7   | [technical-books](https://github.com/doocs/technical-books)       | 值得一看的技术书籍列表。                                                                         | ![](https://badgen.net/github/stars/doocs/technical-books) <br>![](https://badgen.net/github/forks/doocs/technical-books)       |
 
-## 贡献者
-
-感谢以下所有朋友对 [Doocs 技术社区](https://github.com/doocs) 所做出的贡献，[参与项目维护请戳这儿](https://doocs.github.io/#/?id=how-to-join)。
-
-<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
-
-<a href="https://opencollective.com/doocs/contributors.svg?width=890&button=true"><img src="https://opencollective.com/doocs/contributors.svg?width=890&button=false" /></a>
-
-<!-- ALL-CONTRIBUTORS-LIST: END -->
-
-## 公众号
-
-[Doocs](https://github.com/doocs) 技术社区旗下唯一公众号「**Doocs 开源社区**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
-
-<table>
-  <tr>
-    <td align="center" style="width: 200px;">
-      <a href="https://github.com/doocs">
-        <img src="./images/qrcode-for-doocs.jpg" style="width: 400px;"><br>
-        <sub>公众平台</sub>
-      </a><br>
-    </td>
-    <td align="center" style="width: 200px;">
-      <a href="https://github.com/yanglbme">
-        <img src="./images/qrcode-for-yanglbme.jpg" style="width: 400px;"><br>
-        <sub>个人微信</sub>
-      </a><br>
-    </td>
-  </tr>
-</table>
-
-关注「**Doocs 开源社区**」公众号，回复 **PDF**，即可获取本项目离线 PDF 文档（283 页精华），学习更加方便！
-
-![](./images/pdf.png)
