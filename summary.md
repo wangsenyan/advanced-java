@@ -11,7 +11,6 @@
     - [如何设计一个消息队列？](./docs/high-concurrency/mq-design.md)
 
   - [搜索引擎](./docs/high-concurrency/es-introduction.md)
-
     - [ES 的分布式架构原理是什么？](./docs/high-concurrency/es-architecture.md)
     - [ES 写入数据的工作原理是什么？](./docs/high-concurrency/es-write-query-search.md)
     - [ES 在数十亿级别数量下如何提高查询效率？](./docs/high-concurrency/es-optimizing-query-performance.md)

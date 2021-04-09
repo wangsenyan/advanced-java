@@ -41,6 +41,12 @@ Node 是集群中的一个节点，节点也有一个名称，默认是随机分
 
 ![es-cluster-0](./images/es-cluster-0.png)
 
+### Type
+
+类型，每个索引里可以有一个或者多个 type，type 是 index 的一个逻辑分类，比如商品 index 下有多个 type：日化商品 type、电器商品 type、生鲜商品 type。每个 type 下的 document 的 field 可能不太一样。
+7.x后type默认为 `_doc`
+
+
 ### Document & field
 
 文档是 ES 中最小的数据单元，一个 document 可以是一条客户数据、一条商品分类数据、一条订单数据，通常用 json 数据结构来表示。每个 index 下的 type，都可以存储多条 document。一个 document 里面有多个 field，每个 field 就是一个数据字段。
@@ -55,17 +61,8 @@ Node 是集群中的一个节点，节点也有一个名称，默认是随机分
 }
 ```
 
-### Type
+### term 
 
-类型，每个索引里可以有一个或者多个 type，type 是 index 的一个逻辑分类，比如商品 index 下有多个 type：日化商品 type、电器商品 type、生鲜商品 type。每个 type 下的 document 的 field 可能不太一样。
-
-### replica
-
-任何一个服务器随时可能故障或宕机，此时 shard 可能就会丢失，因此可以为每个 shard 创建多个 replica 副本。replica 可以在 shard 故障时提供备用服务，保证数据不丢失，多个 replica 还可以提升搜索操作的吞吐量和性能。primary shard（建立索引时一次设置，不能修改，默认 5 个），replica shard（随时修改数量，默认 1 个），默认每个索引 10 个 shard，5 个 primary shard，5 个 replica shard，最小的高可用配置，是 2 台服务器。
-
-这么说吧，shard 分为 primary shard 和 replica shard。而 primary shard 一般简称为 shard，而 replica shard 一般简称为 replica。
-
-![es-cluster-0](./images/es-cluster-0.png)
 
 ## ES 核心概念 vs. DB 核心概念
 
